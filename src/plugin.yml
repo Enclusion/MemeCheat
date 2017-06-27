@@ -1,0 +1,5 @@
+name: MemeCheat
+main: me.joeleoli.memecheat.CheatPlugin
+author: joeleoli
+version: 1.0
+depend: [ProtocolLib]

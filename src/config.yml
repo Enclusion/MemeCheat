@@ -1,0 +1,136 @@
+alert:
+  failed-check: "{\"text\":\"\",\"extra\":[{\"text\":\"\",\"color\":\"white\"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"MemeCheat\",\"color\":\"red\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"%PLAYER%\",\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp %PLAYER%\"}},{\"text\":\" has failed \",\"color\":\"gray\"},{\"text\":\"%CHEAT%\",\"color\":\"red\"},{\"text\":\" (\",\"color\":\"dark_gray\"},{\"text\":\"%VIOLATION_LEVEL%VL\",\"color\":\"red\"},{\"text\":\") \",\"color\":\"dark_gray\"},{\"text\":\"(\",\"color\":\"dark_gray\"},{\"text\":\"%DATA%\",\"color\":\"red\"},{\"text\":\")\",\"color\":\"dark_gray\"}]}"
+  kicked: "&c%PLAYER% &7has been kicked for &c%KICK_REASON%Z&7."
+auto-ban:
+  ban-kick-message: "You have been suspended for cheating.\nDetails: (%CHEAT%) (%VIOLATION_LEVEL%VL)"
+  ban-command: "ban %PLAYER% Cheating (%CHEAT%) (%VIOLATION_LEVEL%)"
+check-data:
+  autoclicker:
+    clicks: 14
+  killaura:
+    clicks: 14
+    hits: 12
+    ping-accuracy: 200
+  reach:
+    distance: 3.3
+checks:
+  autoclicker:
+    bannable: false
+    judgement-day: false
+    max-violations: 5
+    violations-notify: 6
+    violations-reset: 600000
+    notify-time: 20000
+    burst-time: 0
+    tps-threshold: 16.0
+    ping-threshold: 300
+  fastbow:
+    bannable: false
+    judgement-day: false
+    max-violations: 5
+    violations-notify: 2
+    violations-reset: 600000
+    notify-time: 5000
+    burst-time: 250
+    tps-threshold: 18.0
+    ping-threshold: 300
+  killaura:
+    bannable: true
+    judgement-day: false
+    max-violations: 4
+    violations-notify: 2
+    violations-reset: 180000
+    notify-time: 3000
+    burst-time: 0
+    tps-threshold: 16.0
+    ping-threshold: 300
+  reach:
+    bannable: false
+    judgement-day: false
+    max-violations: 10
+    violations-notify: 20
+    violations-reset: 90000
+    notify-time: 7500
+    burst-time: 500
+    tps-threshold: 16.0
+    ping-threshold: 300
+  miscellaneous:
+    bannable: true
+    judgement-day: false
+    max-violations: 5
+    violations-notify: 2
+    violations-reset: 600000
+    notify-time: 2000
+    burst-time: 250
+    tps-threshold: 18.0
+    ping-threshold: 300
+  timer:
+    bannable: true
+    judgement-day: false
+    max-violations: 4
+    violations-notify: 2
+    violations-reset: 600000
+    notify-time: 2000
+    burst-time: 250
+    tps-threshold: 18.0
+    ping-threshold: 300
+  ascension:
+    bannable: true
+    judgement-day: false
+    max-violations: 3
+    violations-notify: 1
+    violations-reset: 600000
+    notify-time: 2000
+    burst-time: 100
+    tps-threshold: 18.0
+    ping-threshold: 300
+  fly:
+    bannable: true
+    judgement-day: false
+    max-violations: 4
+    violations-notify: 1
+    violations-reset: 600000
+    notify-time: 2000
+    burst-time: 100
+    tps-threshold: 18.0
+    ping-threshold: 300
+  glide:
+    bannable: true
+    judgement-day: false
+    max-violations: 6
+    violations-notify: 2
+    violations-reset: 600000
+    notify-time: 2000
+    burst-time: 100
+    tps-threshold: 18.0
+    ping-threshold: 300
+  nofall:
+    bannable: true
+    judgement-day: false
+    max-violations: 4
+    violations-notify: 2
+    violations-reset: 600000
+    notify-time: 2000
+    burst-time: 100
+    tps-threshold: 18.0
+    ping-threshold: 300
+  speed:
+    bannable: true
+    judgement-day: false
+    max-violations: 3
+    violations-notify: 1
+    violations-reset: 600000
+    notify-time: 2000
+    burst-time: 250
+    tps-threshold: 18.0
+    ping-threshold: 300
+  vclip:
+    bannable: false
+    judgement-day: false
+    max-violations: 20
+    violations-notify: 1
+    violations-reset: 600000
+    notify-time: 750
+    burst-time: 250
+    tps-threshold: 18.0
+    ping-threshold: 300
